@@ -29,9 +29,14 @@ aliases = {"SU Mendrisiotto" : "sum",
            "UH Vallemaggia Cavergno" : "maggia",
            }
 
-  
+
 
 class SUClient():
+
+    def write_to_file(self, path, content):
+        json_file = open(path,"w")
+        json_file.write(content);
+        json_file.close()
 
 
     def get_clubs_ids(self):
@@ -63,7 +68,7 @@ class SUClient():
             club_info['teams'] = self.get_club_teams(id)
             clubs_info.append(club_info)
         print(json.dumps(clubs_info, indent=2))
-        print(yaml.dump(clubs_info))
+        write_to_file("conf/config.json", json.dumps(clubs_info, indent=2))
 
     def generate_team_calendar(self, team_id):
         r = requests.get(url = url_team_calendar+str(team_id), params = {})
@@ -81,18 +86,25 @@ class SUClient():
             game['team_away'] = crt_game_info[3]['text']
             #game['result'] = crt_game_info[4]['text']
             calendar.append(game)
-        print(json.dumps(calendar, indent=2))
-        print(yaml.dump(calendar))
+        #print(json.dumps(calendar, indent=2))
         return calendar
+    
+    def generate_all_calenders(self):
+        with open("conf/config.json") as json_file:
+            data = json.load(json_file)
+            for p in data:
+                for team in p['teams'].keys():
+                    filename = p['alias']+"_"+team.casefold().replace(".","").replace(" ","_").replace("/","")
+                    data = self.generate_team_calendar(p['teams'][team]);
+                    self.write_to_file("calendars/"+filename+".json", json.dumps(data, indent=2))
 
-
-       
 
 
 su_client = SUClient()
 
 
 # Show json
-su_client.generate_config()
+#su_client.generate_config()
 #su_client.get_club_teams(clubs['sum'])
 #su_client.generate_team_calendar("428518")
+su_client.generate_all_calenders()

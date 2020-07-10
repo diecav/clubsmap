@@ -1,0 +1,61 @@
+- alias: blenio
+  id: 429466
+  name: Blenio Stars Unihockey
+  teams: {Herren KF 5. Liga: 429138, Junioren B: 413340, Junioren C: 427963}
+- alias: flip
+  id: 629
+  name: Flippers-Tanachin S. Gottardo
+  teams: {Herren GF 4. Liga: 429527, Junioren C: 431695}
+- alias: guhc
+  id: 458472
+  name: Gambarognese UHC
+  teams: {Herren GF 4. Liga: 427779, Junioren D: 429259}
+- alias: vuh
+  id: 435569
+  name: Regazzi Verbano UH Gordola
+  teams: {Herren KF 4. Liga II: 428722, Herren NLB: 428721, Junioren C: 428726, Junioren D: 428727,
+    Junioren U16 B: 427970, Junioren U21 C: 428358, Junioren/-innen U14/U17 A: 431247}
+- alias: sam
+  id: 405653
+  name: SAM Massagno UH
+  teams: {Damen KF 2. Liga: 408970, Herren KF 4. Liga: 428077, Herren KF 4. Liga II: 429495,
+    Junioren B: 431666}
+- alias: cguh
+  id: 664
+  name: S.G. Concordia Giubiasco
+  teams: {Damen GF 2. Liga: 431715, Herren KF 3. Liga: 429091, Junioren C: 403229}
+- alias: sum
+  id: 45201
+  name: SU Mendrisiotto
+  teams: {Herren GF 2. Liga: 428931, Herren GF 4. Liga II: 428629, Junioren D I: 427725,
+    Junioren D II: 429189, Junioren U18 C: 423384, Junioren/-innen U14/U17 B: 431654}
+- alias: tiuh
+  id: 435553
+  name: Ticino Unihockey
+  teams: {Herren NLB: 429607, Junioren C: 428807, Junioren D: 428808, Junioren U16 B: 428518,
+    Junioren U18 C: 428859, Junioren U21 B: 428806, Junioren/-innen U14/U17 A: 431240}
+- alias: uhca
+  id: 405626
+  name: UHC Ascona
+  teams: {Herren KF 5. Liga: 428408, Junioren D: 424273}
+- alias: luh
+  id: 435549
+  name: UHC Lugano
+  teams: {Herren GF 3. Liga: 428745, Junioren U16 C: 424449, Juniorinnen U21 B: 431728}
+- alias: uhes
+  id: 417064
+  name: UH Eagles Sementina
+  teams: {Damen KF 3. Liga: 431686, Herren GF 4. Liga: 427550, Herren KF 2. Liga: 428729,
+    Junioren C: 427511, Junioren D: 429410, Junioren D II: 431685, Junioren U16 C: 428707}
+- alias: cska
+  id: 633
+  name: UHT CSKA Lodrino
+  teams: {Herren KF 3. Liga: 427790}
+- alias: maggia
+  id: 35301
+  name: UH Vallemaggia Cavergno
+  teams: {Damen KF 3. Liga: 428906, Herren KF 3. Liga: 428585, Herren KF 5. Liga II: 2642}
+- alias: uhcd
+  id: 429451
+  name: Unihockey Collina d'Oro
+  teams: {Herren GF 3. Liga: 429510, Junioren C: 429467, Junioren D: 429487}

@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Blenio Stars Unihockey",
+    "alias": "blenio",
+    "id": 429466,
+    "teams": {
+      "Herren KF 5. Liga": 429138,
+      "Junioren B": 413340,
+      "Junioren C": 427963
+    }
+  },
+  {
+    "name": "Flippers-Tanachin S. Gottardo",
+    "alias": "flip",
+    "id": 629,
+    "teams": {
+      "Herren GF 4. Liga": 429527,
+      "Junioren C": 431695
+    }
+  },
+  {
+    "name": "Gambarognese UHC",
+    "alias": "guhc",
+    "id": 458472,
+    "teams": {
+      "Herren GF 4. Liga": 427779,
+      "Junioren D": 429259
+    }
+  },
+  {
+    "name": "Regazzi Verbano UH Gordola",
+    "alias": "vuh",
+    "id": 435569,
+    "teams": {
+      "Junioren/-innen U14/U17 A": 431247,
+      "Herren NLB": 428721,
+      "Herren KF 4. Liga II": 428722,
+      "Junioren U21 C": 428358,
+      "Junioren U16 B": 427970,
+      "Junioren C": 428726,
+      "Junioren D": 428727
+    }
+  },
+  {
+    "name": "SAM Massagno UH",
+    "alias": "sam",
+    "id": 405653,
+    "teams": {
+      "Herren KF 4. Liga": 428077,
+      "Herren KF 4. Liga II": 429495,
+      "Junioren B": 431666,
+      "Damen KF 2. Liga": 408970
+    }
+  },
+  {
+    "name": "S.G. Concordia Giubiasco",
+    "alias": "cguh",
+    "id": 664,
+    "teams": {
+      "Herren KF 3. Liga": 429091,
+      "Junioren C": 403229,
+      "Damen GF 2. Liga": 431715
+    }
+  },
+  {
+    "name": "SU Mendrisiotto",
+    "alias": "sum",
+    "id": 45201,
+    "teams": {
+      "Junioren/-innen U14/U17 B": 431654,
+      "Herren GF 2. Liga": 428931,
+      "Herren GF 4. Liga II": 428629,
+      "Junioren U18 C": 423384,
+      "Junioren D I": 427725,
+      "Junioren D II": 429189
+    }
+  },
+  {
+    "name": "Ticino Unihockey",
+    "alias": "tiuh",
+    "id": 435553,
+    "teams": {
+      "Junioren/-innen U14/U17 A": 431240,
+      "Herren NLB": 429607,
+      "Junioren U21 B": 428806,
+      "Junioren U18 C": 428859,
+      "Junioren U16 B": 428518,
+      "Junioren C": 428807,
+      "Junioren D": 428808
+    }
+  },
+  {
+    "name": "UHC Ascona",
+    "alias": "uhca",
+    "id": 405626,
+    "teams": {
+      "Herren KF 5. Liga": 428408,
+      "Junioren D": 424273
+    }
+  },
+  {
+    "name": "UHC Lugano",
+    "alias": "luh",
+    "id": 435549,
+    "teams": {
+      "Herren GF 3. Liga": 428745,
+      "Junioren U16 C": 424449,
+      "Juniorinnen U21 B": 431728
+    }
+  },
+  {
+    "name": "UH Eagles Sementina",
+    "alias": "uhes",
+    "id": 417064,
+    "teams": {
+      "Herren KF 2. Liga": 428729,
+      "Herren GF 4. Liga": 427550,
+      "Junioren U16 C": 428707,
+      "Junioren C": 427511,
+      "Junioren D": 429410,
+      "Junioren D II": 431685,
+      "Damen KF 3. Liga": 431686
+    }
+  },
+  {
+    "name": "UHT CSKA Lodrino",
+    "alias": "cska",
+    "id": 633,
+    "teams": {
+      "Herren KF 3. Liga": 427790
+    }
+  },
+  {
+    "name": "UH Vallemaggia Cavergno",
+    "alias": "maggia",
+    "id": 35301,
+    "teams": {
+      "Herren KF 3. Liga": 428585,
+      "Herren KF 5. Liga II": 2642,
+      "Damen KF 3. Liga": 428906
+    }
+  },
+  {
+    "name": "Unihockey Collina d'Oro",
+    "alias": "uhcd",
+    "id": 429451,
+    "teams": {
+      "Herren GF 3. Liga": 429510,
+      "Junioren C": 429467,
+      "Junioren D": 429487
+    }
+  }
+]
