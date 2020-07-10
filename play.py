@@ -73,7 +73,6 @@ class SUClient():
     def generate_team_calendar(self, team_id):
         r = requests.get(url = url_team_calendar+str(team_id), params = {})
         data_obj = json.loads(r.text)
-        mapping = {}
         date_section = data_obj['data']['regions'][0]
         rows = date_section['rows']
         calendar = []
@@ -82,21 +81,23 @@ class SUClient():
             game = {}
             game['date']     = crt_game_info[0]['text'][0]
             #game['location'] = crt_game_info[1]['text']
-            game['team_home'] = crt_game_info[2]['text']
-            game['team_away'] = crt_game_info[3]['text']
+            game['team_home'] = crt_game_info[2]['text'][0]
+            game['team_away'] = crt_game_info[3]['text'][0]
             #game['result'] = crt_game_info[4]['text']
             calendar.append(game)
         #print(json.dumps(calendar, indent=2))
         return calendar
     
-    def generate_all_calenders(self):
+    def generate_all_calendars(self):
         with open("conf/config.json") as json_file:
             data = json.load(json_file)
             for p in data:
                 for team in p['teams'].keys():
                     filename = p['alias']+"_"+team.casefold().replace(".","").replace(" ","_").replace("/","")
-                    data = self.generate_team_calendar(p['teams'][team]);
+                    data = self.generate_team_calendar(p['teams'][team])
                     self.write_to_file("calendars/"+filename+".json", json.dumps(data, indent=2))
+                    self.write_to_file("calendars/"+filename+".yml", yaml.dump(data ,default_flow_style=False))
+
 
 
 
@@ -107,4 +108,5 @@ su_client = SUClient()
 #su_client.generate_config()
 #su_client.get_club_teams(clubs['sum'])
 #su_client.generate_team_calendar("428518")
-su_client.generate_all_calenders()
+su_client.generate_all_calendars()
+#su_client.my_test()
